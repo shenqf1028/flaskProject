@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>top</title>
+</head>
+<body>
+
+<h1>H1</h1>
+<h2>H2</h2>
+{% for post in posts %}
+    <h1>{{ post.name }}</h1>
+    <h1>{{ post.gender }}</h1>
+    <h1>{{ post.age }}</h1>
+{% endfor %}
+
+ <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex/" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex/" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../tutorial/" title="Tutorial"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../installation/" title="Installation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../">Flask Documentation (1.1.x)</a> &#187;</li>
+      </ul>
+    </div>
+</body>
+</html>
